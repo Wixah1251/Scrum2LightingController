@@ -27,16 +27,16 @@ body:
       placeholder: "so I can get donations"
     validations:
       required: true
-                  - type: textarea
-                  id: tasks
-                  attributes:
-                    label: Tasks
-                    description: "List of task-issues necessary to complete part of this user story."
-                    placeholder: |
-                      -customizable text
-                      -scroll speed
-                      -color
-                      -blinking (LED on/off)
-                      -time limit for display
-                  validations:
-                    required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: "List of task-issues necessary to complete part of this user story."
+      placeholder: |
+        -customizable text
+        -scroll speed
+        -color
+        -blinking (LED on/off)
+        -time limit for display
+    validations:
+      required: true
